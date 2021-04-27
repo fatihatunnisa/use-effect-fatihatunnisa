@@ -1,0 +1,42 @@
+header {
+  padding: 10px;
+  background-color: #dfdfdf;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  display: inline;
+  padding-right: 10px;
+}
+
+.App{
+  text-align: center;
+}
+
+input[type=text], [type=password] {
+  padding:10px;
+  margin:10px 0;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+button {
+  appearance:none;
+  -webkit-appearance:none;
+  padding:10px;
+  border:none;
+  background-color:#3F51B5;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width:10%;
+
+}
